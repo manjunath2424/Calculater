@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    margin: 40;
+    padding: 40;
+    box-sizing: border-box;
+    font-family: 'Arial';
+
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("https://wallpapercave.com/wp/8iAP1eI.jpg");
+}
+
+.calculator {
+    padding: 20px;
+    border-radius: 26px;
+    background: black;
+}
+
+input {
+    width: 320px;
+    padding: 24px;
+    margin: 10px;
+    background: silver;
+    font-size: 40px;
+    text-align: right;
+    color: black;
+}
+
+input::placeholder {
+    color: black;
+}
+
+button {
+    border: 200px;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 30%;
+    color: purple;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.operators {
+    color: green;
+}
